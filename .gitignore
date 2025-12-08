@@ -1,0 +1,35 @@
+# 1. Thư viện & Dependencies (Nặng, có thể cài lại bằng npm install)
+node_modules/
+package-lock.json # Có thể giữ hoặc bỏ tùy team, nhưng node_modules bắt buộc bỏ
+
+# 2. BẢO MẬT (QUAN TRỌNG NHẤT - Chứa Key BSN, Private Key)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 3. File Log & Debug (Rác hệ thống)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+
+# 4. Các file tạm của VS Code & Code Runner (Em hay bị cái này)
+.vscode/
+tempCodeRunnerFile.js
+*.swp
+*.swo
+
+# 5. Hardhat / Smart Contract Build (Nếu dùng Hardhat)
+# Những thư mục này được sinh ra khi compile code, không cần up lên
+artifacts/
+cache/
+coverage/
+typechain-types/
+ignition/deployments/
+
+# 6. Hệ điều hành (Mac/Windows)
+.DS_Store
+Thumbs.db

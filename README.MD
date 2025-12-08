@@ -10,6 +10,7 @@ Dự án được xây dựng bằng **Node.js**, minh họa khả năng truy xu
 * **Truy xuất thông tin trạng thái:**
     * **Ethereum:** Lấy Block Header, Miner, Gas Price, Chain ID.
     * **Near:** Lấy Sync Info, Validator, Block Height.
+* **DID-service:** Qua public URL của BSN
 
 ## 🛠️ Công nghệ sử dụng
 

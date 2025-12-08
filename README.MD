@@ -51,3 +51,7 @@ BSN_NEAR_URL=[https://hk.bsngate.com/api/YOUR_PROJECT_KEY/Near-Mainnet/rpc](http
 
 # 3. Cấu hình Timeout (mặc định 10s)
 TIMEOUT=10000
+# --- BSN DID SERVICE (PUBLIC TEST) ---
+BSN_DID_URL=https://did.bsngate.com:18602
+BSN_DID_PROJECT_ID=8320935187
+BSN_DID_TOKEN=3wxYHXwAm57grc9JUr2zrPHt9HC
